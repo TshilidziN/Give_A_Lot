@@ -1,0 +1,460 @@
+.organisations{
+    flex: 4;
+    background-color: #F0F2F7;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    height: 100%;
+}
+.DashboardContainer{
+    flex: 4;
+}
+.OrgSearch{
+    float: right;
+    padding: 0.9em;
+}
+.headerInputOrg{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 999px;
+}
+.headerInputOrg > input{
+    border: none !important;
+    background-color: transparent;
+    outline-width: 0;
+}
+.OrganisationsDash {
+    flex: 4;
+}
+
+.OrgAdd{
+    display: flex;
+    align-items: center;
+    margin: 1em;
+    justify-content: space-between;
+    /*margin-top: 4.5em;*/
+    /*margin-left: 1em;*/
+}
+
+.buttonAdd{
+    background-color: #957b9e !important;
+    color: white !important;
+}
+.buttonAddSector{
+    background-color: white !important;
+    color: #957b9e !important;
+    border: 1px solid #957b9e;
+    margin-left: 2em !important;
+}
+.userTitle{
+    color: #957b9e !important;
+    font-size: xx-large;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+.header__input{
+    float: right !important;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 999px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.header__input > input{
+    border: none;
+    /*border: 2px solid #957b9e;*/
+    background-color: transparent;
+    outline-width: 0;
+}
+
+.buttonAdd > .MuiSvgIcon-root{
+    color: #957b9e;
+}
+.OrgBody{
+    display: flex;
+}
+.bodyItem {
+    flex: 1;
+    margin: 0px 20px;
+    padding: 30px;
+    border-radius: 2em;
+    cursor: pointer;
+    background-color: #0F61A7;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.cardHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bodyButton{
+    justify-content: flex-end;
+    align-self: flex-end;
+}
+.level{
+    border: 1px solid black;
+    background-color: transparent;
+    color: black;
+    padding: 10px ;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.levelNumber{
+    border-color: white;
+    color: white;
+}
+
+.btn {
+    border: 1px solid black;
+    background-color: transparent;
+    color: black;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+
+.manageButton{
+    border-color: white;
+    color: white;
+}
+
+.bodyInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bodyLeft{
+    padding: 1.5em;
+}
+.bodyRight{
+    padding: 1.5em;
+}
+.manageButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttonRemove{
+    color: white;
+    background-color: black;
+    padding: 0.5em;
+    width: 100px;
+    border-radius: 20px;
+}
+.bodyRightContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.OrganisationsDash{
+    flex: 4;
+    background-color: #F0F2F7;
+    height: 100%
+}
+.table{
+    padding-top: 1em !important;
+    /*height: 100%;*/
+    /*width: 100%;*/
+    /*margin: 5em !important;*/
+}
+.UsersDash{
+    flex: 4;
+    background-color: #F0F2F7;
+}
+.OrgListEdits{
+    color: white;
+    background-color: #3bb077;
+    width: 50px;
+    /*padding: 10px 10px;*/
+    border-radius: 25px;
+}
+.MuiDataGrid-row.Mui-odd {
+    background-color: white;
+}
+
+.org{
+    flex: 4;
+    background-color: #F0F2F7;
+}
+.OrgTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.OrgAddButton {
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: #2d9499;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+
+.OrgContainer {
+    display: flex;
+    margin: 3em;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+
+}
+
+.OrgShow {
+    flex: 1;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+.OrgUpdate {
+    flex: 2;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    margin-left: 20px;
+}
+
+.OrgShowTop {
+    display: flex;
+    align-items: center;
+}
+
+.OrgShowImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.OrgShowTopTitle {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.OrgShowUsername {
+    font-weight: 600;
+}
+
+.OrgShowUserTitle {
+    font-weight: 300;
+}
+
+.OrgShowBottom{
+    margin-top: 20px;
+}
+
+.OrgShowTitle {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(175, 170, 170);
+}
+
+.OrgShowInfo{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    color: #444;
+}
+
+.OrgShowIcon{
+    font-size: 16px !important;
+}
+
+.OrgShowInfoTitle{
+    margin-left: 10px;
+}
+
+.OrgUpdateTitle{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.OrgUpdateForm{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.OrgUpdateItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.OrgUpdateItem>label{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.OrgUpdateInput{
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-bottom: 1px solid gray;
+}
+
+.OrgUpdateRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.OrgUpdateUpload{
+    display: flex;
+    align-items: center;
+}
+
+.OrgUpdateImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.OrgUpdateIcon{
+    cursor: pointer;
+}
+
+.OrgUpdateButton{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #2d9499;
+    color: white;
+    font-weight: 600;
+    width: 10em;
+}
+.userUpdateImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.OrgUpdateLeft{
+    display: flex;
+    flex-direction: column;
+}
+/*.smooth-dnd-container.horizontal{*/
+/*    background-color: #3bb077;*/
+/*}*/
+.smooth-dnd-container.horizontal{
+    background-color: #F0F2F7;
+}
+.eHFaPw {
+    background-color: #F0F2F7 !important;
+
+}
+.form{
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    align-items: center;
+    justify-content: center;
+    /*margin: 2em;*/
+    width: 600px;
+}
+.AddHeader{
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 1em;
+    display: block;
+    font-size: 25px;
+    /*color: #333;*/
+}
+.addBtn{
+    color: white !important;
+    background-color: #957b9e !important;
+    width: 100%
+}
+.orgListEdits{
+    color: white;
+    background-color: #957b9e;
+    border-radius: 1em;
+}
+.orgListDeletes{
+    color: red;
+}
+.add{
+    display: flex;
+    flex-grow: 2;
+    align-items: center;
+    justify-content: center;
+    /*width: 50%;*/
+}
+.orgCard{
+    margin: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.userTitleOrg{
+    margin-bottom:1em;
+    font-size: 30px;
+    color: #515151;
+}
+.orgDetailsS{
+    display: flex;
+    /*flex-grow: 2;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+}
+.card1{
+    flex: 1;
+}
+.card2{
+    flex: 1;
+    margin-left: 1em;
+}
+._orgButtons{
+    padding: 0.8em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.error{
+    color: red;
+    float: right;
+}
+.listRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    border-bottom: 1px solid #957b9e;
+    /*cursor: pointer;*/
+    z-index: 999;
+}
+.listRow:hover{
+    border-top: 1px solid #957b9e;
+    box-shadow: 0px 4px 4px -2px rgba(0,0,0,0.24);
+}
+.content{
+    display: flex;
+    flex: 4;
+    align-items: center;
+    justify-content: space-between;
+}
+.rowIcons{
+    display: flex;
+    flex: 0.5;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trythis{
+    display: flex;
+}
+

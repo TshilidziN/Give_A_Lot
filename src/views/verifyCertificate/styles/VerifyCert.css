@@ -1,0 +1,159 @@
+.verifyCert{
+    height: 100vh;
+}
+.verify{
+
+    display: block;
+    color: #ffffff;
+    font-family: 'Raleway',sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    margin:  0 0 25px 0;
+    text-transform: uppercase;
+}
+.fileUpload{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#AlertPrompt, #AlertBadCertificate, #AlertGoodCertificate, #AlertPromptWait, #AlertServerError
+{
+    margin: 10px 0;
+}
+
+#AlertServerError
+{
+    display: none;
+}
+
+#AlertGoodCertificate
+{
+  position: relative;
+    display: none;
+}
+
+#AlertPromptWait
+{
+    display: none;
+}
+
+#goodAlertBtn
+{
+    background: #5ec94a !important;
+    color: white;
+    position: absolute;
+    right: 5px;
+    bottom: 9.5px;
+    width: 100px;
+    height: 30px;
+}
+
+
+#AlertBadCertificate
+{
+    display: none;
+
+}
+.upload
+{
+    background-color: white;
+
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11), 0 5px 15px 0 rgba(0, 0, 0, 0.08);
+    box-sizing: border-box;
+    width: fit-content;
+    text-align: left;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.Content
+{
+    display: flex;
+    flex-direction: row;
+    padding-top: 16px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.Files {
+    margin-left: 32px;
+    align-items: flex-start;
+    justify-items: flex-start;
+    flex: 1;
+    overflow-y: auto;
+}
+
+.Actions {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-top: 32px;
+}
+
+.Title {
+    margin-bottom: 32px;
+    color: #555;
+}
+
+.Filename {
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #555;
+}
+
+.Row {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50px;
+    padding: 8px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.CheckIcon {
+    opacity: 0.5;
+    margin-left: 32px;
+}
+
+.ProgressWrapper {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+}
+
+button {
+    font-family: "Roboto medium", sans-serif;
+    font-size: 14px;
+    display: inline-block;
+    height: 36px;
+    min-width: 88px;
+    padding: 6px 16px;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 0;
+    border-radius: 2px;
+    background: #4b4250;
+    color: #fff;
+    outline: 0;
+}
+
+button:disabled {
+    background: rgb(189, 189, 189);
+    cursor: default;
+}

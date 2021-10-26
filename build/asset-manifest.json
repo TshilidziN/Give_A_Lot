@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bf516df2.chunk.css",
+    "main.js": "/static/js/main.43da51d8.chunk.js",
+    "main.js.map": "/static/js/main.43da51d8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6b7073eb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6b7073eb.js.map",
+    "static/css/2.90841768.chunk.css": "/static/css/2.90841768.chunk.css",
+    "static/js/2.ed86721e.chunk.js": "/static/js/2.ed86721e.chunk.js",
+    "static/js/2.ed86721e.chunk.js.map": "/static/js/2.ed86721e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.90841768.chunk.css.map": "/static/css/2.90841768.chunk.css.map",
+    "static/css/main.bf516df2.chunk.css.map": "/static/css/main.bf516df2.chunk.css.map",
+    "static/js/2.ed86721e.chunk.js.LICENSE.txt": "/static/js/2.ed86721e.chunk.js.LICENSE.txt",
+    "static/media/Curve-Loading.5e01ee79.gif": "/static/media/Curve-Loading.5e01ee79.gif",
+    "static/media/blurredFallback.a1c7985f.jpeg": "/static/media/blurredFallback.a1c7985f.jpeg",
+    "static/media/complete.d4b4e66b.png": "/static/media/complete.d4b4e66b.png",
+    "static/media/feedback-2044700_1280.b0c38cae.jpg": "/static/media/feedback-2044700_1280.b0c38cae.jpg",
+    "static/media/filter_list_black_24dp.e0b6601f.svg": "/static/media/filter_list_black_24dp.e0b6601f.svg",
+    "static/media/givealot-logo-red..b08aeed2.png": "/static/media/givealot-logo-red..b08aeed2.png",
+    "static/media/homeBackground.581f1315.jpg": "/static/media/homeBackground.581f1315.jpg",
+    "static/media/logo3_1.4e3e63ec.png": "/static/media/logo3_1.4e3e63ec.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6b7073eb.js",
+    "static/css/2.90841768.chunk.css",
+    "static/js/2.ed86721e.chunk.js",
+    "static/css/main.bf516df2.chunk.css",
+    "static/js/main.43da51d8.chunk.js"
+  ]
+}

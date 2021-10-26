@@ -1,0 +1,128 @@
+.featured{
+    flex: 4;
+    background-color: #F0F2F7;
+    height: 100%;
+    /*position: relative;*/
+    /*top: 130px;*/
+}
+.featuredBody{
+    /*margin-top: 4em;*/
+    display: flex;
+    flex-direction: column;
+}
+
+.chartInfo{
+    margin: 20px;
+    padding: 20px;
+    width: 50%;
+}
+.chart {
+    margin: 20px;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    background-color: white;
+    color: #957b9e;
+}
+
+.chartTitle {
+    margin-bottom: 20px;
+    color: #957b9e;
+}
+.userInfoChart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.4em;
+}
+.userNumbers{
+    padding: 0.1em 0.35em;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid gray;
+
+}
+.featuredCards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1em;
+}
+.cardElement{
+    width: 24%;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+.numberIcon{
+    display: flex;
+    align-items: center;
+    /*justify-content: space-between;*/
+}
+.cardIconUser{
+    color: white !important;
+    margin-bottom: 1rem;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 1em;
+    background: linear-gradient(to bottom right, #9e88f5 0%, #6259ca 100%) !important;
+}
+.cardIconOrg{
+    color: white !important;
+    margin-bottom: 1rem;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 50%;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right, #f1bf64 0%, #f71d36 100%) !important;
+}
+.cardIconReports{
+    color: white;
+    margin-bottom: 1rem;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 50%;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom right, #9070ff 0%, #ff5d9e 100%) !important;
+}
+.cardIconNotifications{
+    color: white;
+    margin-bottom: 1rem;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 50%;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom right, #4be8d4 0%, #129bd2 100%) !important;
+}
+.dashGraph{
+    flex: 1;
+    height: 100% !important;
+}
+
+.trythis{
+    display: flex;
+}

@@ -1,0 +1,63 @@
+.DashboardContainer{
+    display: flex;
+    /*flex: 4;*/
+    /*background-color: #F0F2F7;*/
+    /*margin-top: 10px;*/
+}
+.link
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+#timeline_title
+{
+    text-align: center;
+    color: #4b4250;
+    font-family: 'Raleway',sans-serif;
+    font-size: 23px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+#timeline_slogan
+{
+    text-align: center;
+    color: #4b4250;
+    font-family: 'Raleway',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 17px;
+}
+
+#timeline_container
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+    justify-content: space-around;
+    width: fit-content;
+    position: absolute;
+    left: 53%;
+    transform: translate(-50%,20px);
+
+}
+
+#timeline_add_event_container
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 15px;
+    max-width: 400px;
+}
+
+#timeline_add_event_container > .timeline-text-field
+{
+    margin: 5px 0;
+}
+
+#timeline-event-dashboard-container
+{
+ margin-left: 50px;
+}

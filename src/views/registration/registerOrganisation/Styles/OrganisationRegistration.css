@@ -1,0 +1,154 @@
+#banner_filter
+{
+    background: rgba(50, 50, 50, 0.66);
+    z-index: 2;
+}
+
+.register_organisation_outter_container
+{
+    width: fit-content;
+    background: white;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.registration_form_container
+{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: fit-content;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.registration_form_input
+{
+    width: 400px;
+}
+
+.registration_form_required
+{
+    font-size: 10px;
+    float: right;
+    color: red;
+    display: none;
+}
+
+.registration_form_input_container
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.registration_form_btn_multi,.registration_form_btn
+{
+    background: #4b4250 !important;
+    color: white;
+    width: 100px;
+}
+
+.registration_form_input
+{
+    margin-top: 10px !important;
+}
+
+#email_exists_toast
+{
+    width: 200px;
+    height: 30px !important;
+    padding: 0 0 35px 10px !important;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10%;
+    display: none;
+}
+
+.registration_form_btn
+{
+    left: 50%;
+    transform: translate(-50%,0);
+    position: relative;
+    margin-top: 10px !important;
+}
+
+.register_organisation_heading
+{
+    text-align: center;
+    display: block;
+    color: #4b4250;
+    font-family: 'Raleway',sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    margin:  0 0 25px 0;
+    text-transform: uppercase;
+}
+
+#orgSector_dropdown
+{
+    border: 1px solid #c7c7c7;
+    border-radius: 3px;
+    outline: none;
+    height: 50px;
+    color: #767676;
+    font-size: 17px !important;
+    margin-bottom: 13px !important;
+}
+
+#final_registration_toasts_org_succ ,
+#final_registration_toasts_org_error,
+#final_registration_toasts_org_info
+{
+    display: none;
+}
+
+#reg_org_main_page
+{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.registration_form_input_options
+{
+    font-size: 13px !important;
+}
+
+.registration_form_btn_multi_container
+{
+    width: 220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    margin-top: 20px;
+}
+
+#register_organisation_outter_container_info,
+#register_organisation_outter_container_contact,
+#register_organisation_outter_container_photo
+{
+    display: none;
+}
+
+@media screen and (max-width: 550px)
+{
+    .registration_form_input
+    {
+        max-width: 80vw;
+        font-size: 10px !important;
+    }
+
+    .register_organisation_heading
+    {
+        font-size: 20px;
+    }
+}

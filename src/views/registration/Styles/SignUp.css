@@ -1,0 +1,166 @@
+.signup{
+
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    object-fit: fill;
+
+}
+
+.verifyCert
+{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.signupHeader{
+    text-align: center;
+    display: block;
+    color: #4b4250;
+    font-family: 'Raleway',sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    margin:  0 0 25px 0;
+    text-transform: uppercase;
+}
+
+.signupCard{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: fit-content;
+}
+.signupWrapper{
+    width: 500px;
+    border-radius: 10px;
+    background: #fff;
+
+    overflow: hidden;
+    padding: 30px 30px 30px 30px;
+
+}
+
+.container{
+
+}
+
+signupForm {
+    display: block;
+    margin-top: 0em;
+}
+
+.signupInput{
+    width: 100%;
+    border-bottom: 2px solid #d9d9d9;
+    margin-bottom: 23px;
+}
+
+
+.signupValidate{
+    position: relative;
+}
+.signup-focus-input{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+.signup-focus-input::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #7f7f7f;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    -moz-transition: all .4s;
+    transition: all .4s;
+}
+.signupButton{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.signup-wrapper-btn{
+    width: 100%;
+    display: block;
+    position: relative;
+    z-index: 1;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.signupform-btn{
+    position: absolute;
+    z-index: -1;
+    width: 300%;
+    height: 100%;
+}
+.signup-btn{
+    font-size: 16px;
+    color: #fff !important;
+    line-height: 1.2;
+    padding: 0 20px;
+    width: 350px;
+    text-transform: uppercase;
+    height: 50px;
+    border: none;
+    background-color: #4b4250 !important;
+    border-radius: 5px !important;
+    position: relative;
+    left: 50%;
+    margin-top: 20px;
+    transform: translate(-50%,0);
+    text-align: left;
+}
+
+
+
+.signup-linker{
+    text-decoration: none;
+}
+
+.terms{
+
+    margin-top: 25px;
+    text-align: center;
+}
+.BottomLink{
+    text-decoration: none;
+    color: #957b9e;
+}
+
+.Terms5{
+
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    object-fit: fill;
+
+    background-color: #eff3f6;
+
+}
+
+.terms_text{
+
+
+    color: #4b4250;
+    text-align: left;
+    font-family:sans-serif;
+    padding: 25px;
+    margin:  25px 25px 0px 50px;
+
+
+
+
+}
+
+

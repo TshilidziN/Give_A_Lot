@@ -1,0 +1,498 @@
+
+#view_organisation_container
+{
+    margin: 50px 0;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#view_header
+{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: fit-content;
+}
+
+#view_header_meta_content
+{
+    position: relative;
+    top: 0;
+
+    width: fit-content;
+}
+
+
+#view_header_meta_content>div>p
+{
+
+    text-align: center;
+
+    color: #4b4250;
+    font-family: 'Raleway',sans-serif;
+    font-size: 23px;
+    font-weight: 800;
+    margin-bottom: 17px;
+
+
+    text-transform: uppercase;
+}
+#view_header_meta_content>img
+{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.38);
+    border-radius: 10px;
+    width: 100px;
+    position: relative;
+}
+
+#view_organisations_card
+{
+    text-align: center;
+    font-family: 'Raleway',sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+}
+
+#id_social_media
+{
+    height: fit-content;
+    display: flex;
+    padding: 0;
+    transform: translateX(-15px);
+    margin-top: 15px;
+}
+
+#id_social_media > Button
+{
+    margin: 10px;
+    font-weight: bolder;
+    width: 110px;
+}
+#TwitterIcon
+{
+    background:  #1da1f2;
+    color: white;
+}
+
+#FacebookIcon
+{
+    background:  #1877f2;
+    color: white;
+}
+
+.disabledBTN
+{
+    background: gray !important;
+}
+
+#instaIcon
+{
+    background:  #c32aa3;
+    color: white;
+}
+
+#view_organisations_card > h1
+{
+    text-align: left;
+    color: #252226;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    width: 350px;
+}
+
+#view_organisations_card > h4
+{
+    text-align: left;
+    color: #252226;
+
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: lowercase;
+}
+
+#view_organisation
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#myBtn
+{
+    margin-top: 10px;
+    transform: translateX(-30px);
+    color: #4b4250;
+    float: right;
+
+    border:1px solid #6b5d70;
+}
+
+#myBtn:hover
+{
+    border:1px solid #6b5d70;
+    background: #6b5d70;
+    color: white;
+}
+
+#view_organisation_meta_body
+{
+    margin-top: 20px;
+}
+#view_organisation_meta_body_about
+{
+    color: #4b4250;
+    font-family: 'Raleway',sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 72px;
+    margin:  0;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+#more {display: none;}
+
+#twitterBtn
+{
+    background: #aab8c2;
+
+}
+
+#view_organisation_gallery>p
+{
+    text-align: right;
+    color: #4b4250;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+#view_organisation_gallery
+{
+    width: 500px;
+    position: relative;
+   left: 50%;
+    transform: translate(-50%,0);
+}
+
+#imageCover
+{
+    width: 350px;
+    height: 200px;
+    object-fit: fill;
+    position: relative;
+    /*left: 50%;transform: translate(-50%,0);*/
+    margin-top: 20px;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.38);
+    border-radius: 1px;
+}
+
+/*
+  certificate
+*/
+
+
+
+#certificate_container
+{
+  display: flex;
+  flex-direction: column;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+#certificate_container > div
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+#certificate_container > img
+{
+    width: 480px;
+    object-fit: contain;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+
+}
+
+#certificate_container > Button
+{
+    background: #4b4250;
+    width: fit-content;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    margin: 15px 0;
+}
+
+#certificate_award_message
+{
+    font-family: 'Raleway',sans-serif;
+    margin: 10px;
+    width: 100%;
+
+    font-size: 13px;
+/*    left: 50%;
+    position: relative;
+    transform: translate(-50%,0);
+
+
+    color: #262328;
+
+    */
+}
+
+.galleryOriginal
+{
+
+}
+
+.galleryThumbnail
+{
+    object-fit: cover !important;
+    background: none !important;
+    height: 60px !important;
+    border: none !important;
+}
+
+em
+{
+    font-weight: bolder;
+}
+
+#donateSection
+{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+
+    position: relative;
+    right: 0px;
+}
+
+
+#donateSection>Button
+{
+    background-color: #4b4250;
+    color: white;
+    width: fit-content;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    margin: 10px 0;
+}
+
+
+#timeLineTitle
+{
+    color: #4b4250;
+    font-family: 'Raleway',sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+#timeLinePaper
+{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #8b888d;
+    min-width: 150px;
+    height: fit-content;
+}
+
+#timelineParagraph
+{
+    color: white;
+    line-height: 15px;
+    font-size: 10px;
+    text-align: left !important;
+}
+
+#organisation_timeline
+{
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+#organisation_timeline::-webkit-scrollbar
+{
+    width: 10px;
+}
+
+/* Track */
+#browse_organisations::-webkit-scrollbar-track {
+    background: #f1f1f100;
+}
+
+/* Handle */
+#organisation_timeline::-webkit-scrollbar-thumb {
+    background: #4b4250;
+}
+
+#report_organisation_heading_browse
+{
+    text-align: center;
+}
+
+#report_form_container
+{
+    flex-direction: column;
+    display: flex;
+    width: 350px !important;
+    padding: 5px;
+}
+
+#report_success_alert,#report_wait_alert,#report_error_alert, #report_server_error_alert
+{
+    display: none;
+    margin-bottom: 10px;
+}
+
+.report_form_input
+{
+    margin-bottom: 10px !important;
+}
+
+@media screen and (max-width: 550px) {
+
+    #view_organisations_card > h1
+    {
+        text-align: center;
+        color: #252226;
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 0;
+        text-transform: capitalize;
+        width: 350px;
+    }
+
+    #view_organisations_card > h4
+    {
+        text-align: center;
+        color: #252226;
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        text-transform: lowercase;
+    }
+
+    #imageCover
+    {
+        width: 300px;
+        height: 180px;
+        object-fit: cover;
+        position: relative;
+        left: 50%;transform: translate(-50%,0);
+        margin-top: 20px;
+    }
+
+    #view_organisation_container_outer
+    {
+        overflow: hidden;
+
+    }
+
+    #view_organisation_container
+    {
+        margin: 20px 0;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding: 0 0 0 5px;
+
+
+    }
+
+    #view_organisation
+    {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        width: fit-content !important;
+    }
+
+    #id_social_media
+    {
+        height: fit-content;
+        display: flex;
+        padding: 0;
+        width: fit-content;
+        margin-top: 15px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #id_social_media > Button
+    {
+        font-size: 10px;
+        width: 90px;
+        cursor: pointer;
+    }
+
+    #view_organisation_gallery
+    {
+        width: 90vw;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%,0);
+    }
+
+    #view_header
+    {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #view_organisation_meta_body_about
+    {
+        font-size: 22px;
+        font-weight: 800;
+        line-height: 72px;
+        margin:  0 0 0 10px;
+    }
+    #view_organisation_right
+    {
+        margin-top: 50px;
+        padding: 0;
+    }
+
+    #view_header_meta_content>div>p
+    {
+        text-align: left;
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    #certificate_award_message
+    {
+        padding: 0;
+        font-size: 13px;
+    }
+
+    #certificate_container > img
+    {
+        width: 90vw;
+        object-fit: contain;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%,0);
+    }
+}

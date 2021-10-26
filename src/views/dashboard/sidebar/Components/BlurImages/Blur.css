@@ -1,0 +1,43 @@
+.blur{
+    flex: 4;
+    background-color: #F0F2F7;
+}
+
+#blur-image-container
+{
+    text-align: center;
+    position: relative;
+}
+
+#processing_photo_info
+{
+    width: 400px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    margin-top: 20px;
+    display: none;
+}
+
+#blur-image-input
+{
+    border: 1px solid #4b4250 !important;
+}
+#blur-image-container > p
+{
+    text-align: center;
+    color: #4b4250;
+    font-family: 'Raleway',sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+
+}
+
+#blurred_image_here
+{
+    border-radius: 5px;
+    margin-top: 20px;
+}

@@ -1,0 +1,163 @@
+.email{
+    flex: 4;
+    background-color: #F0F2F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.email-container{
+
+    width: 850px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    margin-top: -100px;
+
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+/*input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    background-color: #F0F2F7;
+}*/
+
+.emailInput {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    background-color: #F0F2F7;
+}
+
+
+.emailLabel {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.emailSubmit {
+    background-color: #7c6d81;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+.emailSubmit:hover {
+    background-color: #957b9e;
+}
+
+._container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.bottom_{
+    display: flex;
+    float: right;
+    padding: 10px;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1024px) {
+
+    .email{
+        flex: 4;
+        background-color: #F0F2F7;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+
+
+    }
+
+    .email-container{
+
+        width: 500px;
+        background-color: white;
+        -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+        margin-top: -200px;
+
+
+    }
+    .bottom_{
+
+        display: flex;
+        float: left;
+        padding: 10px;
+
+    }
+    .col-25, .col-75 {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-device-width: 1024px) and (max-width: 1224px)  {
+
+    .email{
+        flex: 4;
+        background-color: #F0F2F7;
+        display: flex;
+        justify-content: center;
+
+
+
+    }
+
+    .email-container{
+
+        width: 600px;
+        background-color: white;
+        -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+        margin-top: -200px;
+
+    }
+    .bottom_{
+
+        display: flex;
+        float: left;
+        padding: 10px;
+
+    }
+    .col-25, .col-75 {
+        width: 100%;
+        margin-top: 0;
+    }
+
+
+}
+
+

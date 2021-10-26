@@ -1,0 +1,70 @@
+.report{
+
+    flex: 4;
+    background-color: #F0F2F7;
+
+}
+
+.reportHeader{
+
+    margin: 30px;
+    font-size: 25px;
+    color: #957b9e;
+    font-family: Verdana;
+
+}
+
+.non{
+    margin: 60px;
+    position: absolute;
+    left: 500px;
+    font-family: sans-serif;
+    color:#957b9e;
+    display: flex;
+
+}
+.hidden{
+    color: white;
+}
+
+
+
+.accordion{
+    margin: 10px;
+}
+
+.iconReport{
+
+    color: #91d1a8;
+
+}
+
+.AppealButton{
+    border-radius: 5px;
+
+    background-color: #f6650b;
+    color: white;
+    width: 60px;
+    border: none;
+    padding: 5px;
+
+}
+
+
+.AppealButton1{
+    border-radius: 5px;
+
+    background-color: slategrey;
+    color: white;
+    width: 60px;
+    border: none;
+    padding: 5px;
+
+}
+
+.trythis{
+    display: flex;
+}
+
+
+

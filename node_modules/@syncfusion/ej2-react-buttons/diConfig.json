@@ -1,0 +1,248 @@
+{
+    "name": "Buttons",
+    "description": "Button Components",
+    "keywords": {
+        "common": ["ej2", "syncfusion", "ej2-buttons", "button", "ej2 button", "checkbox", "ej2 checkbox", "checkboxes", "radio button", "radiobutton", "radiobuttons", "ej2 radiobutton", "switch", "ej2 switch",  "primary button", "flat button", "round button", "icon button", "togglebutton", "toggle button", "form control", "form controls", "input"],
+        "angular": ["angular", "ng", "ej2-ng-buttons", "ng-button", "ng-checkbox", "ng-radiobutton", "ng-switch"  ],
+        "react": ["react", "reactjs", "ej2-react-buttons", "react-button", "react-checkbox", "react-radiobutton", "react-switch"],
+        "vue": ["vue", "vuejs", "ej2-vue-buttons", "vue-button", "vue-checkbox", "vue-radiobutton", "vue-switch"]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/syncfusion/ej2-ng-buttons"
+    },
+    "eventInterfaces": ["ChangeEventArgs", "ClickEventArgs", "DeleteEventArgs", "ChangeArgs"],
+    "components": [
+        {
+            "baseClass": "Button",
+            "directoryName": "button",
+            "type": "container",
+            "defaultTag": "<button id='button'></button>",
+            "selector": "[ejs-button]",
+            "preferredTag": "button",
+            "blazorPlaceholder": "button",
+			"blazorType": "native",
+            "comment": [
+                "/**",
+                " * Represents the Angular Button Component.",
+                " * ```html",
+                " * <button ejs-button>Button</button>",
+                " * ```",
+                " */"
+            ],
+            "reactComment": [
+                "/**",
+                " * `ButtonComponent` represents the react Button Component.",
+                " * ```ts",
+                " * <ButtonComponent></ButtonComponent>",
+                " * ```",
+                " */"
+            ],
+            "vueComment": [
+                "/**",
+                " * Represents the Essential JS 2 VueJS Button Component",
+                " * ```html",
+                " * <ejs-button>Button</ejs-button>",
+                " * ```",
+                " */"
+            ]
+        },
+        {
+            "baseClass": "CheckBox",
+            "directoryName": "check-box",
+            "type": "form",
+            "defaultTag": "<input id='checkbox' type='checkbox'/>",
+            "preferredTag": "input",
+            "twoWays": [
+                "checked",
+                "indeterminate"
+            ],
+            "blazorPlaceholder": "checkbox",
+			"blazorType": "native",
+            "comment": [
+                "/**",
+                " * Represents the Angular CheckBox Component.",
+                " * ```html",
+                " * <ejs-checkbox label='Default'></ejs-checkbox>",
+                " * ```",
+                " */"
+            ],
+            "reactComment": [
+                "/**",
+                " * Represents the react CheckBox Component.",
+                " * ```ts",
+                " * <CheckBoxComponent label='Default'></CheckBoxComponent>",
+                " * ```",
+                " */"
+            ],
+            "vueComment": [
+                "/**",
+                " * Represents the Essential JS 2 VueJS CheckBox Component",
+                " * ```html",
+                " * <ejs-checkbox label='Default'></ejs-checkbox>",
+                " * ```",
+                " */"
+            ]
+        },
+        {
+            "baseClass": "RadioButton",
+            "directoryName": "radio-button",
+            "type": "form",
+            "defaultTag": "<input id='radio' type='radio'/>",
+            "preferredTag": "input",
+            "blazorPlaceholder": "radiobutton",
+			"blazorType": "native",
+            "twoWays": [
+                "value"
+            ],
+            "comment": [
+                "/**",
+                " * Represents the Angular RadioButton Component.",
+                " * ```html",
+                " * <ejs-radiobutton label='Default'></ejs-radiobutton>",
+                " * ```",
+                " */"
+            ],
+            "reactComment": [
+                "/**",
+                " * Represents the react RadioButton Component.",
+                " * ```ts",
+                " * <RadioButtonComponent label='Default'></RadioButtonComponent>",
+                " * ```",
+                " */"
+            ],
+            "vueComment": [
+                "/**",
+                " * Represents the Essential JS 2 VueJS RadioButton Component",
+                " * ```html",
+                " * <ejs-radiobutton label='Default'></ejs-radiobutton>",
+                " * ```",
+                " */"
+            ]
+        },
+        {
+            "baseClass": "Switch",
+            "directoryName": "switch",
+            "defaultTag": "<input id='switch' type='checkbox'/>",
+            "preferredTag": "input",
+            "twoWays": [
+                "checked"
+            ],
+            "type": "form",
+            "blazorPlaceholder": "switch",
+			"blazorType": "native",
+            "comment": [
+                "/**",
+                " * Represents the Angular Switch Component.",
+                " * ```html",
+                " * <ejs-switch></ejs-switch>",
+                " * ```",
+                " */"
+            ],
+            "reactComment": [
+                "/**",
+                " * Represents the react Switch Component.",
+                " * ```ts",
+                " * <SwitchComponent></SwitchComponent>",
+                " * ```",
+                " */"
+            ],
+            "vueComment": [
+                "/**",
+                " * Represents the Essential JS 2 VueJS Switch Component.",
+                " * ```html",
+                " * <ejs-switch></ejs-switch>",
+                " * ```",
+                " */"
+            ]
+        },
+        {
+            "baseClass": "ChipList",
+            "directoryName": "chips",
+            "defaultTag": "<div id='chip'></div>",
+            "preferredTag": "div",
+            "twoWays": [
+            ],
+            "type": "simple",
+            "blazorPlaceholder": "chip-list",
+            "blazorType": "hybrid",
+            "comment": [
+                "/**",
+                " * Represents the Essential JS 2 Angular ChipList Component.",
+                " * ```html",
+                " * <ejs-chiplist></ejs-chiplist>",
+                " * ```",
+                " */"
+            ],
+            "reactComment": [
+                "/**",
+                " * Represents the Essential JS 2 React ChipList Component.",
+                " * ```ts",
+                " * <ChipListComponent></ChipListComponent>",
+                " * ```",
+                " */"
+            ],
+            "vueComment": [
+                "/**",
+                " * Represents the Essential JS 2 VueJS ChipList Component.",
+                " * ```html",
+                " * <ejs-chiplist></ejs-chiplist>",
+                " * ```",
+                " */"
+            ],
+            "tagDirective": [
+                {
+                    "arrayDirectiveClassName": "Chips",
+                    "directiveClassName": "Chip",
+                    "parentName": "Chips",
+                    "propertyName": "chips",
+                    "baseClass": "Chip",
+                    "aspArrayClassName": "ChipCollection",
+                    "aspDirectiveSelector": "e-chip",
+                    "aspArrayDirectiveSelector": "e-chips",
+                    "isDeprecated": true,
+                    "comment": [
+                        "/**",
+                        " * `e-chip` directive represent a chip of the Angular ChipList.",
+                        " * ```html",
+                        " * <ejs-chiplist > ",
+                        " *   <e-chips>",
+                        " *    <e-chip text='chip1'></e-chip>",
+                        " *    <e-chip text='chip2'></e-chip>",
+                        " *   </e-chips>",
+                        " * </ejs-chiplist>",
+                        " * ```",
+                        " */"
+                    ],
+                    "reactComment": [
+                        "/**",
+                        " * `ChipDirective` directive represent a chip of the React ChipList.",
+                        " * ```html",
+                        " * <ChipListComponent> ",
+                        " *   <ChipsDirective>",
+                        " *    <ChipDirective text='chip1'></ChipDirective>",
+                        " *    <ChipDirective text='chip2'></ChipDirective>",
+                        " *   </ChipsDirective>",
+                        " * </ChipListComponent>",
+                        " * ```",
+                        " */"
+                    ],
+                    "vueComment": [
+                        "/**",
+                        " * `e-chip` directive represent a chip of the Vue ChipList.",
+                        " * ```html",
+                        " * <ejs-chiplist > ",
+                        " *   <e-chips>",
+                        " *    <e-chip text='chip1'></e-chip>",
+                        " *    <e-chip text='chip2'></e-chip>",
+                        " *   </e-chips>",
+                        " * </ejs-chiplist>",
+                        " * ```",
+                        " */"
+                    ],
+                    "templateProperties": []
+                }
+            ]
+        }
+    ]
+}

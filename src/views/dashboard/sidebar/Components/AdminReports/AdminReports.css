@@ -1,0 +1,23 @@
+.adminReports{
+    flex: 4;
+    background-color: #F0F2F7;
+}
+.buttonReportAccept{
+    color: white !important;
+    background-color: #957b9e !important;
+}
+.buttonReportDeny{
+    color: white;
+    background-color: red !important;
+}
+.buttonsAdminReports{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.acceptReport{
+    padding: 10px;
+}
+.denyReport{
+    padding: 10px;
+}

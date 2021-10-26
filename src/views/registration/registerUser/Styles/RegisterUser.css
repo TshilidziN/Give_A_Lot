@@ -1,0 +1,192 @@
+.registerUser{
+
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    object-fit: fill;
+
+}
+
+.registerUserCard{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: fit-content;
+}
+
+.wrapp{
+    width: 500px;
+    border-radius: 10px;
+    background: #fff;
+
+    overflow: hidden;
+    padding: 30px 30px 30px 30px;
+
+}
+
+.registerUserForm {
+    display: block;
+    margin-top: 0em;
+}
+.registerUserHeader{
+    text-align: center;
+    display: block;
+    color: #4b4250;
+    font-family: 'Raleway',sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    margin:  0 0 25px 0;
+    text-transform: uppercase;
+}
+
+.names{
+    display: flex;
+    justify-content: space-between;
+}
+.registerUserInput{
+    width: 100%;
+    border-bottom: 2px solid #d9d9d9;
+    margin-bottom: 23px;
+}
+
+.registerUserInput1{
+    width: 45%;
+    border-bottom: 2px solid #d9d9d9;
+    margin-bottom: 23px;
+}
+
+.registerUserInputLabel{
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+    padding-left: 7px;
+}
+.registerUserInnerInput
+{
+    line-height: 1.2;
+    display: block;
+    width: 100%;
+    height: 60px;
+    font-size: 16px;
+    color: #333;
+    padding: 0 7px 0 10px;
+    outline: none;
+    border: 2px solid #4b4250;
+    border-radius: 10px;
+    background-color: white !important;
+}
+
+.nameFields
+{
+    height: 60px;
+    font-size: 16px;
+    color: #333;
+    padding: 0 7px 0 10px;
+    outline: none;
+    border: 2px solid #4b4250;
+    border-radius: 10px;
+    background-color: white !important;
+}
+
+.validate{
+    position: relative;
+}
+.focus-input{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+.focus-input::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #7f7f7f;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    -moz-transition: all .4s;
+    transition: all .4s;
+}
+.registerUserButton{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.wrapp-btn{
+    width: 100%;
+    display: block;
+    position: relative;
+    z-index: 1;
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.registerUserform-btn{
+    position: absolute;
+    z-index: -1;
+    width: 300%;
+    height: 100%;
+}
+.registerUser-btn{
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.2;
+    padding: 0 20px;
+    width: 80%;
+    text-transform: uppercase;
+    height: 50px;
+    border: none;
+    background-color: #4b4250 !important;
+    border-radius: 5px !important;
+    position: relative;
+    left: 50%;
+    margin-top: 20px;
+    transform: translate(-50%,0);
+}
+
+.registerUserBottomForm{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+
+}
+
+.registerUserLinker{
+    text-decoration: none;
+}
+
+.registerUserBottomLinker{
+    text-decoration: none;
+    color: #333;
+}
+
+
+.registerUserIcon{
+    color: #767676;
+    /*padding: 10px;*/
+}
+
+.error{
+    color: red;
+    float: right;
+}
+
+#emailError,#PasswordError, #registrationInfoPrompt, #registrationInfoPromptWait
+{
+    position: relative;
+    width: fit-content;
+    flex-direction: row;
+    display: none;
+
+    left: 50%;
+    margin-bottom: 10px;
+    transform: translateX(-50%);
+}

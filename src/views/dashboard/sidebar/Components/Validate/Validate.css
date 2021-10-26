@@ -1,0 +1,72 @@
+.validate{
+    flex: 4;
+    background-color: #F0F2F7;
+}
+.buttonValid{
+    color: #957b9e;
+    border: 2px solid #957b9e;
+}
+.buttonValidView{
+    color: white !important;
+    background-color: #957b9e !important;
+}
+.buttonValidViewAccept{
+    color: white !important;
+    background-color: lightgreen !important;
+}
+.valid{
+    /*color: #957b9e;*/
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.validateInfo{
+    color: #957b9e;
+    font-size: xx-large;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+.validBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+}
+.name{
+    color: #957b9e;
+    font-size: xx-large;
+    /*margin: 2em;*/
+}
+.validBody{
+    /*padding: 2em;*/
+    display: flex;
+    /*align-items: center;*/
+}
+.buttonValidViewDeny{
+    color: white !important;
+    background-color: red !important;
+    margin-left: 0.8em;
+}
+
+#loaderValidateContainer
+{
+    display: none;
+    position: fixed;
+    z-index: 500;
+    width: 100vw;
+    height: 100vh;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(137, 106, 106, 0);
+}
+#loaderValidate{
+    position: relative;
+    background-color: #4780b1 !important;
+    color: white;
+    width: 200px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}

@@ -1,0 +1,51 @@
+.DashHeader{
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+}
+.dashHeader{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    height: 65px;
+    left: 14em;
+}
+.headersOrg{
+    position: fixed;
+    top: 65px;
+    left: 14em;
+    z-index: 123456;
+    background-color: white;
+    height: 50px;
+    width: calc(100% - 14em);
+    border: 1px solid  #957b9e;
+    border-left: none;
+    border-right: none;
+}
+/*.topRight{*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: space-between;*/
+/*    float: right;*/
+/*}*/
+.iconsAndHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    float: right;
+}
+.topBarIconContainer{
+    cursor: pointer;
+}
+.topBarIconContainer > .MuiSvgIcon-root{
+    color: #957b9e;
+    font-size: xx-large;
+}
+
+.topBarIconContainer:hover > .MuiSvgIcon-root{
+    color:#2e81f4;
+}
+

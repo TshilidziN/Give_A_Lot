@@ -1,0 +1,42 @@
+iframe
+{
+    height: 420px;
+    width: 400px;
+}
+
+#iframe-givealot-toggle-btn
+{
+    width: 120px;
+    right: 5px;
+    bottom: 5px;
+    position: absolute;
+}
+#iframe
+{
+    height: 100%;
+    display: none;
+    overflow: hidden;
+}
+
+#iframe::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+#iframe {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+#iframe-container
+{
+    z-index: 2;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+
+    justify-content: end;
+    display: flex;
+    flex-direction: column;
+
+}

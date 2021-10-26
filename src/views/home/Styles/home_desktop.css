@@ -1,0 +1,76 @@
+
+  #homeNav {
+    display: flex;
+    justify-content: space-between;
+
+    width: 98vw;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .loginDashBtn {
+    height: 30px;
+    width: fit-content;
+    border: none;
+    border-radius: 5px;
+    top: 25px;
+    position: relative;
+    color: #4b4250;
+    letter-spacing: -0px !important;
+    font-weight: bold !important;
+  }
+
+  #logo {
+    width: 200px;
+  }
+
+  #main_content_container {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    flex-direction: column;
+  }
+
+  #main_head {
+    font-size: 28px;
+    text-align: center;
+    margin: 0;
+  }
+
+  #supporting_head {
+    margin: 0;
+    transform: translateY(15px);
+    font-size: 48px;
+
+    text-align: center;
+  }
+
+  #main_content_btns {
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: fit-content;
+
+  }
+
+.main_content_btns_inputTag
+{
+    margin: 5px !important;
+    width: fit-content;
+    background: #4b4250 !important;
+    color: white !important;
+  width: 250px !important;
+  height: 45px;
+
+  }
+
+
